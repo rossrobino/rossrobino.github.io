@@ -1,0 +1,133 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #0A1931;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1em;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0A1931;
+}
+
+a:visited {
+    color: #0A1931;
+}
+
+a:hover {
+    color: #133875;
+}
+
+a:active {
+    color: #0A1931;
+}
+
+/* Header */
+h1 {
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Mansalva', sans-serif;
+    color: #FFF;
+    font-size: 9em;
+    background-color: #0a1931;
+    background-image: url(../images/ep_naturalblack.png);
+}
+
+/* Main */ 
+
+#gallery {
+    column-count:3;
+    column-gap:2px;
+}
+
+#gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:2px;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+p {
+    text-align: center;
+    padding: 1.5em;
+}
+#skills ul {
+    text-align: center;
+}
+#skills li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 1em;
+}
+hr {
+    border-color: #0A1931;
+}
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Mansalva', sans-serif;
+    padding: 1em;
+}
+.inst {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    background-color: #FFF;
+
+    /*box-shadow: 0px 0px 5px grey;*/
+}
+
+.inst:hover{
+    box-shadow: 0px 0px 7px grey;
+}
+
+.inst ul {
+    padding: 1em 4em;
+    font-size: .8em;
+}
+
+.instHead {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+}
+
+.inst img {
+    width: 200px;
+}
+
+/* Footer */
+footer ul {
+    text-align: center;
+}
+footer li {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 450px) {
+    #gallery {
+        column-count: 1;
+    }
+    h1 {
+        font-size: 3em;
+    }
+ }
