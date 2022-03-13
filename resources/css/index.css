@@ -89,8 +89,6 @@ h2 {
     margin-bottom: 1em;
     padding: 1em 2em;
     background-color: #FFF;
-
-    /*box-shadow: 0px 0px 5px grey;*/
 }
 
 .inst:hover{
@@ -110,6 +108,10 @@ h2 {
 
 .inst img {
     width: 200px;
+}
+
+article {
+    padding-bottom: 10px;
 }
 
 /* Footer */
