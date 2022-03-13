@@ -1,3 +1,7 @@
 # rossrobino.github.io
-## Public Portfolio
-This is my personal website, it can be accessed at robino.dev.
+
+## Portfolio
+
+This is my personal website.
+
+### Link: [robino.dev](https://robino.dev)
