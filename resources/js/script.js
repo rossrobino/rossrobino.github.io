@@ -1,6 +1,6 @@
 /*
-Ross Robino
-Personal Website Script
-index.html links to this script
+    Ross Robino
+    Personal Website
+    linked to index.html
 */
 
