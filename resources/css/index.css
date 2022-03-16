@@ -86,7 +86,7 @@ hr{
 
 #intro {
     text-align: center;
-    padding: 5vh;
+    padding: 15vh;
     color: #0e1317;
     background-image: url(../images/so-white.png);
 }
@@ -110,5 +110,8 @@ main {
 @media only screen and (max-width: 450px) {
     #gallery {
         column-count: 1;
+    }
+    #intro {
+        padding: 4vh;
     }
  }
