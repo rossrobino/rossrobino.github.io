@@ -8,18 +8,9 @@
 window.addEventListener("scroll", function() {
     const distance = window.scrollY;
     document.querySelector("header").style.transform = `translateY(${distance * 0.5}px)`;
-    if (distance < 720) {
-        document.querySelector("h1").style.fontSize = `${distance * window.innerWidth/8000}px`;
-        document.querySelector("h1").style.transform = `rotate(${distance * 0.5}deg)`;
+    if (distance < 250) {
+        document.querySelector("h1").style.fontSize = `${32 + (distance * window.innerWidth/3000)}px`;
     } else {
-        document.querySelector("h1").style.fontSize = `${0.09 * window.innerWidth}px`;
-        document.querySelector("h1").style.transform = 'rotate(0deg)';
+        document.querySelector("h1").style.fontSize = `${32 + (250 * window.innerWidth/3000)}px`;
     }
-  });
-
-$("header").click(function(){
-    window.scrollTo({
-        top: 1100,
-        behavior: 'smooth'
-    });
 });

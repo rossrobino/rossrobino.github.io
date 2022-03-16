@@ -2,6 +2,8 @@
     Ross Robino
     Personal Website
     linked to index.html
+
+    background images from https://www.toptal.com/designers/subtlepatterns/
 */
 
 * {
@@ -12,19 +14,19 @@
 }
 
 a:link {
-    color: #FFF;
+    color: #fcfcfc;
 }
 
 a:visited {
-    color: #FFF;
+    color: #fcfcfc;
 }
 
 a:hover {
-    color: #9e2721;
+    color: #d1231a;
 }
 
 a:active {
-    color: #FFF;
+    color: #fcfcfc;
 }
 
 body {
@@ -35,7 +37,7 @@ body {
 
 footer {
     background-image: url(../images/ep_naturalblack.png);
-    color: #FFF;
+    color: #fcfcfc;
 }
 
 footer ul {
@@ -60,7 +62,7 @@ footer li {
 }
 
 h1 {
-    font-size: 0;
+    font-size: 32px;
 }
 
 header {
@@ -68,28 +70,34 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 180vh;
+    height: 100vh;
     text-align: center;
     font-family: 'Mansalva', sans-serif;
-    color: #FFF;
+    color: #fcfcfc;
     background-image: url(../images/ep_naturalblack.png);
     position: relative;
-    cursor: pointer;
+}
+
+hr{
+    height: 1px;
+    background-color: #0e1317;
+    border: none;
 }
 
 #intro {
     text-align: center;
-    background-color: #9e2721;
-    padding: 20vh 5vh;
-    color: #FFF;
+    padding: 5vh;
+    color: #0e1317;
+    background-image: url(../images/so-white.png);
 }
 
 main {
-    background-color: #FFF;
+    background-color: #fcfcfc;
 }
 
 #skills ul {
     text-align: center;
+    background-image: url(../images/so-white.png);
 }
 
 #skills li {
