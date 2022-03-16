@@ -16,3 +16,10 @@ window.addEventListener("scroll", function() {
         document.querySelector("h1").style.transform = 'rotate(0deg)';
     }
   });
+
+$("header").click(function(){
+    window.scrollTo({
+        top: 1100,
+        behavior: 'smooth'
+    });
+});
