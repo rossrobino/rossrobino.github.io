@@ -79,7 +79,7 @@ header {
 }
 
 hr{
-    height: 1px;
+    height: 3px;
     background-color: #0e1317;
     border: none;
 }
@@ -88,7 +88,7 @@ hr{
     text-align: center;
     padding: 15vh;
     color: #0e1317;
-    background-image: url(../images/so-white.png);
+
 }
 
 main {
