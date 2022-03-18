@@ -3,7 +3,7 @@
     Personal Website
     linked to index.html
 
-    background images from https://www.toptal.com/designers/subtlepatterns/
+    background image from https://www.toptal.com/designers/subtlepatterns/
 */
 
 * {
@@ -53,6 +53,7 @@ footer li {
 #gallery {
     column-count:3;
     column-gap:0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -5px 10px;
 }
 
 #gallery img {
@@ -88,7 +89,6 @@ hr{
     text-align: center;
     padding: 15vh;
     color: #0e1317;
-
 }
 
 main {
@@ -97,7 +97,6 @@ main {
 
 #skills ul {
     text-align: center;
-    background-image: url(../images/so-white.png);
 }
 
 #skills li {
