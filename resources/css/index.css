@@ -63,7 +63,7 @@ footer li {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 5em;
 }
 
 header {
@@ -71,7 +71,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 12em;
     text-align: center;
     font-family: 'Mansalva', sans-serif;
     color: #fcfcfc;
@@ -87,7 +87,7 @@ hr{
 
 #intro {
     text-align: center;
-    padding: 15vh;
+    padding: 10vh 15vh;
     color: #0e1317;
 }
 
@@ -106,7 +106,7 @@ main {
 }
 
 /* ----Media Queries---- */
-@media only screen and (max-width: 450px) {
+@media (max-width: 640px) {
     #gallery {
         column-count: 1;
     }
