@@ -75,7 +75,7 @@ main {
 .material-icons.md-rem { font-size: 1.3rem }
 
 ::selection {
-    background-color: rgb(209, 35, 26);
+    background-color: #d1231a;
     color: #fcfcfc;
 }
 
