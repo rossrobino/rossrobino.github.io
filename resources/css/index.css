@@ -1,10 +1,6 @@
-/* 
-    Ross Robino
-    Personal Website
-    linked to index.html
+/* background image from https://www.toptal.com/designers/subtlepatterns/ */
 
-    background image from https://www.toptal.com/designers/subtlepatterns/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Noto+Sans&display=swap');
 
 * {
     margin: 0;
@@ -13,11 +9,7 @@
     position: relative;
 }
 
-a:link {
-    color: #fcfcfc;
-}
-
-a:visited {
+a {
     color: #fcfcfc;
 }
 
@@ -25,18 +17,14 @@ a:hover {
     color: #d1231a;
 }
 
-a:active {
-    color: #fcfcfc;
-}
-
 body {
     color: #0e1317;
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     cursor: default;
+    background-image: url(../images/ep_naturalblack.webp);
 }
 
 footer {
-    background-image: url(../images/ep_naturalblack.png);
     color: #fcfcfc;
 }
 
@@ -51,32 +39,22 @@ footer li {
 }
 
 #gallery {
-    column-count:3;
-    column-gap:0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -5px 10px;
+    column-count: 3;
+    column-gap: 0;
 }
 
 #gallery img {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
     display: block;
 }
 
 h1 {
-    font-size: 5em;
-}
-
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 12em;
-    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
     font-family: 'Mansalva', sans-serif;
+    text-align: center;
     color: #fcfcfc;
-    background-image: url(../images/ep_naturalblack.png);
-    position: relative;
 }
 
 hr{
@@ -87,12 +65,18 @@ hr{
 
 #intro {
     text-align: center;
-    padding: 10vh 15vh;
-    color: #0e1317;
+    padding: 2rem 15vw;
 }
 
 main {
     background-color: #fcfcfc;
+}
+
+.material-icons.md-rem { font-size: 1.3rem }
+
+::selection {
+    background-color: rgb(209, 35, 26);
+    color: #fcfcfc;
 }
 
 #skills ul {
@@ -101,16 +85,15 @@ main {
 
 #skills li {
     display: inline-block;
-    font-size: 1.5em;
-    padding: 1em;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
-/* ----Media Queries---- */
 @media (max-width: 640px) {
     #gallery {
         column-count: 1;
     }
     #intro {
-        padding: 4vh;
+        padding: 1rem 5vw;
     }
  }
